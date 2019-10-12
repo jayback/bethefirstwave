@@ -15,6 +15,22 @@
 		FA22EF5823322B0000995A56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA22EF5623322B0000995A56 /* LaunchScreen.storyboard */; };
 		FA22EF6323322B0000995A56 /* beTheFirstWaveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA22EF6223322B0000995A56 /* beTheFirstWaveTests.swift */; };
 		FA22EF6E23322B0100995A56 /* beTheFirstWaveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA22EF6D23322B0100995A56 /* beTheFirstWaveUITests.swift */; };
+		FA22EF7F23322C3300995A56 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA22EF7E23322C3300995A56 /* LoginViewController.swift */; };
+		FA22EF852338C06D00995A56 /* label.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA22EF842338C06D00995A56 /* label.swift */; };
+		FA22EF8D233A2E1800995A56 /* eventsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA22EF8C233A2E1800995A56 /* eventsTableViewCell.swift */; };
+		FA22EF90233B634900995A56 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA22EF8F233B634900995A56 /* constants.swift */; };
+		FA22EF92233B71EA00995A56 /* event.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA22EF91233B71EA00995A56 /* event.swift */; };
+		FA22EF94233CA3B400995A56 /* program.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA22EF93233CA3B400995A56 /* program.swift */; };
+		FA22EF96233CAB6600995A56 /* eventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA22EF95233CAB6600995A56 /* eventsTableViewController.swift */; };
+		FA22EF98233D71E100995A56 /* events.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA22EF97233D71E100995A56 /* events.swift */; };
+		FA22EF9A233D741B00995A56 /* driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA22EF99233D741B00995A56 /* driver.swift */; };
+		FA22EF9D233DF42C00995A56 /* viewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA22EF9C233DF42C00995A56 /* viewModel.swift */; };
+		FA22EFA1233E196400995A56 /* detailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA22EFA0233E196400995A56 /* detailsViewController.swift */; };
+		FA22EFA3233F414E00995A56 /* sectionsEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA22EFA2233F414E00995A56 /* sectionsEvents.swift */; };
+		FA7DF207234009F1002EEEE9 /* profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7DF206234009F1002EEEE9 /* profile.swift */; };
+		FA7DF2092341739E002EEEE9 /* findProgramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7DF2082341739E002EEEE9 /* findProgramViewController.swift */; };
+		FA7DF20B2341CE19002EEEE9 /* programTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7DF20A2341CE19002EEEE9 /* programTableViewController.swift */; };
+		FA7DF20D2341FD99002EEEE9 /* programTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7DF20C2341FD99002EEEE9 /* programTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +65,22 @@
 		FA22EF6923322B0000995A56 /* beTheFirstWaveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = beTheFirstWaveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA22EF6D23322B0100995A56 /* beTheFirstWaveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beTheFirstWaveUITests.swift; sourceTree = "<group>"; };
 		FA22EF6F23322B0100995A56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA22EF7E23322C3300995A56 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FA22EF842338C06D00995A56 /* label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = label.swift; sourceTree = "<group>"; };
+		FA22EF8C233A2E1800995A56 /* eventsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventsTableViewCell.swift; sourceTree = "<group>"; };
+		FA22EF8F233B634900995A56 /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		FA22EF91233B71EA00995A56 /* event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = event.swift; sourceTree = "<group>"; };
+		FA22EF93233CA3B400995A56 /* program.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = program.swift; sourceTree = "<group>"; };
+		FA22EF95233CAB6600995A56 /* eventsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventsTableViewController.swift; sourceTree = "<group>"; };
+		FA22EF97233D71E100995A56 /* events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = events.swift; sourceTree = "<group>"; };
+		FA22EF99233D741B00995A56 /* driver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = driver.swift; sourceTree = "<group>"; };
+		FA22EF9C233DF42C00995A56 /* viewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewModel.swift; sourceTree = "<group>"; };
+		FA22EFA0233E196400995A56 /* detailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsViewController.swift; sourceTree = "<group>"; };
+		FA22EFA2233F414E00995A56 /* sectionsEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sectionsEvents.swift; sourceTree = "<group>"; };
+		FA7DF206234009F1002EEEE9 /* profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profile.swift; sourceTree = "<group>"; };
+		FA7DF2082341739E002EEEE9 /* findProgramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findProgramViewController.swift; sourceTree = "<group>"; };
+		FA7DF20A2341CE19002EEEE9 /* programTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = programTableViewController.swift; sourceTree = "<group>"; };
+		FA7DF20C2341FD99002EEEE9 /* programTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = programTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +131,11 @@
 		FA22EF4923322AFD00995A56 /* beTheFirstWave */ = {
 			isa = PBXGroup;
 			children = (
+				FA22EF7D23322B9D00995A56 /* view */,
+				FA22EF7C23322B8900995A56 /* controller */,
+				FA22EF9B233DF3A200995A56 /* veiwModel */,
+				FA22EF7B23322B1000995A56 /* model */,
 				FA22EF4A23322AFD00995A56 /* AppDelegate.swift */,
-				FA22EF4C23322AFD00995A56 /* ViewController.swift */,
-				FA22EF4E23322AFD00995A56 /* Main.storyboard */,
 				FA22EF5423322B0000995A56 /* Assets.xcassets */,
 				FA22EF5623322B0000995A56 /* LaunchScreen.storyboard */,
 				FA22EF5923322B0000995A56 /* Info.plist */,
@@ -126,6 +160,60 @@
 				FA22EF6F23322B0100995A56 /* Info.plist */,
 			);
 			path = beTheFirstWaveUITests;
+			sourceTree = "<group>";
+		};
+		FA22EF7B23322B1000995A56 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				FA22EF99233D741B00995A56 /* driver.swift */,
+				FA22EF842338C06D00995A56 /* label.swift */,
+				FA22EF8F233B634900995A56 /* constants.swift */,
+				FA22EF91233B71EA00995A56 /* event.swift */,
+				FA22EF97233D71E100995A56 /* events.swift */,
+				FA22EF93233CA3B400995A56 /* program.swift */,
+				FA22EFA2233F414E00995A56 /* sectionsEvents.swift */,
+				FA7DF206234009F1002EEEE9 /* profile.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		FA22EF7C23322B8900995A56 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				FA22EF8E233A2E2100995A56 /* tableCells */,
+				FA7DF20A2341CE19002EEEE9 /* programTableViewController.swift */,
+				FA22EF4C23322AFD00995A56 /* ViewController.swift */,
+				FA22EF7E23322C3300995A56 /* LoginViewController.swift */,
+				FA22EF95233CAB6600995A56 /* eventsTableViewController.swift */,
+				FA22EFA0233E196400995A56 /* detailsViewController.swift */,
+				FA7DF2082341739E002EEEE9 /* findProgramViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		FA22EF7D23322B9D00995A56 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FA22EF4E23322AFD00995A56 /* Main.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		FA22EF8E233A2E2100995A56 /* tableCells */ = {
+			isa = PBXGroup;
+			children = (
+				FA22EF8C233A2E1800995A56 /* eventsTableViewCell.swift */,
+				FA7DF20C2341FD99002EEEE9 /* programTableViewCell.swift */,
+			);
+			path = tableCells;
+			sourceTree = "<group>";
+		};
+		FA22EF9B233DF3A200995A56 /* veiwModel */ = {
+			isa = PBXGroup;
+			children = (
+				FA22EF9C233DF42C00995A56 /* viewModel.swift */,
+			);
+			path = veiwModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +347,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA22EF94233CA3B400995A56 /* program.swift in Sources */,
+				FA22EF9A233D741B00995A56 /* driver.swift in Sources */,
+				FA22EF92233B71EA00995A56 /* event.swift in Sources */,
+				FA22EF9D233DF42C00995A56 /* viewModel.swift in Sources */,
+				FA7DF2092341739E002EEEE9 /* findProgramViewController.swift in Sources */,
+				FA7DF20D2341FD99002EEEE9 /* programTableViewCell.swift in Sources */,
+				FA22EF8D233A2E1800995A56 /* eventsTableViewCell.swift in Sources */,
+				FA7DF20B2341CE19002EEEE9 /* programTableViewController.swift in Sources */,
+				FA22EF7F23322C3300995A56 /* LoginViewController.swift in Sources */,
 				FA22EF4D23322AFD00995A56 /* ViewController.swift in Sources */,
+				FA22EF90233B634900995A56 /* constants.swift in Sources */,
+				FA22EF98233D71E100995A56 /* events.swift in Sources */,
+				FA7DF207234009F1002EEEE9 /* profile.swift in Sources */,
+				FA22EFA1233E196400995A56 /* detailsViewController.swift in Sources */,
+				FA22EF96233CAB6600995A56 /* eventsTableViewController.swift in Sources */,
+				FA22EFA3233F414E00995A56 /* sectionsEvents.swift in Sources */,
+				FA22EF852338C06D00995A56 /* label.swift in Sources */,
 				FA22EF5323322AFD00995A56 /* beTheFirstWave.xcdatamodeld in Sources */,
 				FA22EF4B23322AFD00995A56 /* AppDelegate.swift in Sources */,
 			);
@@ -436,7 +540,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = beTheFirstWave/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -444,6 +549,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = au.edu.rmit.s3549218.beTheFirstWave;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -453,7 +559,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = beTheFirstWave/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -461,6 +568,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = au.edu.rmit.s3549218.beTheFirstWave;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

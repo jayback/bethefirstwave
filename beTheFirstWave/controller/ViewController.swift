@@ -9,10 +9,21 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+   
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        //      load potential events - need to be a database call in future
+//      Half Ironman
+        
+        
+        performSegue(withIdentifier: "pushLogin", sender: self)
+        
+        
+      
     }
 
 
