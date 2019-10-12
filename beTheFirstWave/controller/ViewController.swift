@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         //      load potential events - need to be a database call in future
 //      Half Ironman
         
-        
+        print ("tst")
         performSegue(withIdentifier: "pushLogin", sender: self)
         
         
