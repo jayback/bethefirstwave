@@ -24,7 +24,7 @@ class viewModel{
         
         for event in discipline.allCases
         {
-            let tempObject = sectionsEvents(sectionName: event.rawValue, allEvents: self.model.allEvents)
+            let tempObject = sectionsEvents(sectionName: event.rawValue, events: self.model.allEvents)
             returnArray.append(tempObject)
         }
         return returnArray

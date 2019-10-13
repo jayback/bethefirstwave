@@ -35,7 +35,7 @@ class eventsTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return sectionArray[section].events.count
+        return sectionArray[section].allEvents.count
         
     }
 
@@ -43,7 +43,7 @@ class eventsTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! eventsTableViewCell
 
-        cell.setCell(name:sectionArray[indexPath.section].events[indexPath.row].name, logo: sectionArray[indexPath.section].events[indexPath.row].eventImage)
+        cell.setCell(name:sectionArray[indexPath.section].allEvents[indexPath.row].name, logo: sectionArray[indexPath.section].allEvents[indexPath.row].eventImage)
 //        cell.textLabel?.text = sectionArray[indexPath.section].events[indexPath.row].name
         return cell
     }
@@ -95,8 +95,8 @@ class eventsTableViewController: UITableViewController {
         if segue.identifier == "eventDetails"{
             if let i = tableView.indexPathForSelectedRow{
                 let destVC = segue.destination as! detailsViewController
-                destVC.eventDescriptionText = sectionArray[i.section].events[i.row].shortEventSummary()
-                destVC.eventName = sectionArray[i.section].events[i.row].name
+                destVC.eventDescriptionText = sectionArray[i.section].allEvents[i.row].shortEventSummary()
+                destVC.eventName = sectionArray[i.section].allEvents[i.row].name
             }
         }
     }

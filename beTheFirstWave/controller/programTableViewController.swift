@@ -9,10 +9,16 @@
 import UIKit
 
 class programTableViewController: UITableViewController {
+    
+    var VM = viewModel()
+    var count = 0
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+      
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -29,7 +35,15 @@ class programTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 7
+        if let program = VM.model.myProgram{
+            count = program.weeklys.count
+            
+        }
+        else{
+            count = 0
+        }
+
+        return 12
     }
 
     

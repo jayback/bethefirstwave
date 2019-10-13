@@ -11,19 +11,30 @@ import UIKit
 
 
 class driver {
-    var allEvents: [event] = []
+    
+    var allEvents: events = events()
 //    var profile: profile?
+    var programName = _programName
+    var myProgram: program?
     
     init (){
         
+        // THESE CAN EVENTUALLY COME FROM A DATABASE
         let halfI = event( disc: .TRI, distanceUOM: .MLS, name: "Half Ironman", swimTdis:85,rideTdis: 20, runTdis: 5, eventImage: UIImage(named: "halfIronman.png")!)
-        allEvents.append(halfI)
+        allEvents.addEvent(event: halfI)
         let fullI = event( disc: .TRI, distanceUOM: .MLS, name: "Ironman", swimTdis:85,rideTdis: 20, runTdis: 5, eventImage: UIImage(named: "ironman.png")!)
-        allEvents.append(fullI)
+        allEvents.addEvent(event: fullI)
         let fourHun = event( disc: .SWM, distanceUOM: .KM, name: "Swim 400", swimTdis:0.4,rideTdis: 0, runTdis: 0, eventImage: UIImage(named: "ironman.png")!)
-        allEvents.append(fourHun)
+        allEvents.addEvent(event: fourHun)
         let mara = event( disc: .RUN, distanceUOM: .MLS, name: "Marathon", swimTdis:0,rideTdis: 0, runTdis: 42.2, eventImage: UIImage(named: "ironman.png")!)
-        allEvents.append(mara)
+        allEvents.addEvent(event: mara)
+        if (programName != "") {
+            if let event =  allEvents.getEventByName(name: programName){
+                self.myProgram = program(evt: event, isWeekly: false, isDaily: false)
+
+            }
+            print (programName)
+        }
     
     }
     

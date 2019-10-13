@@ -12,15 +12,15 @@ import Foundation
 class sectionsEvents {
     
     var sectionName: String
-    var events: [event] = []
+    var allEvents: [event] = []
     
-    init (sectionName: String, allEvents: [event]){
+    init (sectionName: String, events: events){
         
         self.sectionName = sectionName
         
-        for event in allEvents{
+        for event in events.allEvents{
             if sectionName == event.disc.rawValue{
-                events.append(event)
+                allEvents.append(event)
             }
         }
     }
