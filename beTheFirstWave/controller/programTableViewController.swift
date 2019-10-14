@@ -29,28 +29,32 @@ class programTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
         return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        if let program = VM.model.myProgram{
-            count = program.weeklys.count
-            
+        if let count = VM.model.myProgram?.durationWeeks{
+            return count
         }
-        else{
-            count = 0
-        }
-
-        return 12
+        return 0
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "weeklyCell", for: indexPath) as! programTableViewCell
 
-        // Configure the cell...
+        
+        if let swimDistance = VM.model.myProgram?.weeklys[indexPath.row].swimTdis{
+            if let rideDistance = VM.model.myProgram?.weeklys[indexPath.row].rideTdis{
+                if let runDistance = VM.model.myProgram?.weeklys[indexPath.row].rideTdis{
+                    
+                    cell.setCell( swimDistance: swimDistance, rideDistance: rideDistance, runDistance: runDistance)
+                    
+                }
+            }
+        }
+        
+        
 
         return cell
     }

@@ -20,9 +20,9 @@ class driver {
     init (){
         
         // THESE CAN EVENTUALLY COME FROM A DATABASE
-        let halfI = event( disc: .TRI, distanceUOM: .MLS, name: "Half Ironman", swimTdis:85,rideTdis: 20, runTdis: 5, eventImage: UIImage(named: "halfIronman.png")!)
+        let halfI = event( disc: .TRI, distanceUOM: .KM, name: "Half Ironman", swimTdis:1.9,rideTdis: 90, runTdis: 21.1, eventImage: UIImage(named: "halfIronman.png")!)
         allEvents.addEvent(event: halfI)
-        let fullI = event( disc: .TRI, distanceUOM: .MLS, name: "Ironman", swimTdis:85,rideTdis: 20, runTdis: 5, eventImage: UIImage(named: "ironman.png")!)
+        let fullI = event( disc: .TRI, distanceUOM: .KM, name: "Ironman", swimTdis:3.8,rideTdis: 180, runTdis: 42.2, eventImage: UIImage(named: "ironman.png")!)
         allEvents.addEvent(event: fullI)
         let fourHun = event( disc: .SWM, distanceUOM: .KM, name: "Swim 400", swimTdis:0.4,rideTdis: 0, runTdis: 0, eventImage: UIImage(named: "ironman.png")!)
         allEvents.addEvent(event: fourHun)
@@ -30,8 +30,15 @@ class driver {
         allEvents.addEvent(event: mara)
         if (programName != "") {
             if let event =  allEvents.getEventByName(name: programName){
-                self.myProgram = program(evt: event, isWeekly: false, isDaily: false)
-
+                self.myProgram = program(evt: event, isWeekly: false, isDaily: false, inWeekNumber: 0)
+                
+                for i in 0..<12{
+                    if let distance = self.myProgram?.weeklys[i].runTdis {
+                        print ("the weekly run distance is --- \(distance)")
+                    }
+                    
+                }
+               
             }
             print (programName)
         }

@@ -392,6 +392,11 @@
                                         <constraint firstAttribute="bottom" secondItem="yKO-sY-Vjv" secondAttribute="bottom" constant="8" id="mSF-au-gRi"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="rideDistance" destination="dAw-NO-2G6" id="BZD-FW-A4u"/>
+                                    <outlet property="runDistance" destination="nAO-jV-kIa" id="2GL-hB-oTS"/>
+                                    <outlet property="swimDistance" destination="w2b-qr-Ssi" id="Zge-Zl-TIu"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

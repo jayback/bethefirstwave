@@ -26,10 +26,7 @@ enum userType: String {
     case coa = "Coach", ath = "Athlete", admin = "administrator"
 }
 
-struct globalVariables{
-
 // build levels for the twelve weeks
-var buildLevels: [Int] = [10,20,20,25,25,35,45,50,55,60,65]
+var buildLevels: [Double] = [0.20,0.25,0.20,0.25,0.35,0.45,0.65,0.75,0.55,0.40,0.35,0.25]
     
 
-}
